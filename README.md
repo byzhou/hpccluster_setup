@@ -25,7 +25,11 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 3. Map the drive to the network drive in _My Computer_ and set [autologin](https://www.techrepublic.com/blog/windows-and-office/manage-network-logon-credentials-in-microsoft-windows/) for network drive.
 
-4. Install [softwares](#benchmarks-on-windows-32bit-machine)
+4. Install [softwares](#softwares) and [benchmarks](#benchmarks)
+
+5. Put startup scripts in the folder C:\Users\<user name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+6. Always be [admin](https://www.technipages.com/windows-enable-disable-user-account-control-uac)
 
 # Configurations on Ubuntu
 
@@ -73,14 +77,8 @@ autologin. While installation of Ubuntu, the configuration provides autologin.
 sudo](https://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password)
 explains no password for sudo setup.
 
-# Benchmarks on Windows 32bit Machine
+# Softwares
 
-- [ ]
-[phoronix](https://github.com/phoronix-test-suite/phoronix-test-suite) is
-tunned for 64 bit Windows. But some suites of Phoronix can also run under 32
-bit Windows. The way to run phoronix is download 
-[PHP](http://windows.php.net/download/) and use the _php.exe_ to run
-phoronix-test-suite.bat.
 
 - [x]
 [Adobe PDF Reader](https://get.adobe.com/reader/otherversions/)
@@ -103,27 +101,37 @@ explains how to run SPEC2006 benchmark on a windows machine.
 to install rabbitmq interface on python in windows. 
 
 # Benchmarks
+## Opensource Benchmarks
+- [ ]
+AIM Multiuser Benchmark: composed of a list of tests that could be mixed to
+create a ‘load mix’ that would simulate a specific computer function on any
+**UNIX-type OS**.  Bonnie++: filesystem and hard drive benchmark
 
 - [ ]
-AIM Multiuser Benchmark: composed of a list of tests that could be mixed to create a ‘load mix’ that would simulate a specific computer function on any **UNIX-type OS**.  Bonnie++: filesystem and hard drive benchmark
+BRL-CAD: cross-platform architecture-agnostic benchmark suite based on
+multithreaded ray tracing performance; baselined against a VAX-11/780; and used
+since 1984 for evaluating relative CPU performance, compiler differences,
+optimization levels, coherency, architecture differences, and operating system
+differences. **BRL-CAD only works on 64-bit machines.**
 
 - [ ]
-BRL-CAD: cross-platform architecture-agnostic benchmark suite based on multithreaded ray tracing performance; baselined against a VAX-11/780; and used since 1984 for evaluating relative CPU performance, compiler differences, optimization levels, coherency, architecture differences, and operating system differences. **BRL-CAD only works on 64-bit machines.**
+DEISA Benchmark Suite: scientific HPC applications benchmark **European Union
+driven scientific reserch benchmark, no body use this**
 
 - [ ]
-DEISA Benchmark Suite: scientific HPC applications benchmark **European Union driven scientific reserch benchmark, no body use this**
+Dhrystone: integer arithmetic performance, often reported in DMIPS (Dhrystone
+millions of instructions per second) **Synthetic computing benchmark**
 
 - [ ]
-Dhrystone: integer arithmetic performance, often reported in DMIPS (Dhrystone millions of instructions per second) **Synthetic computing benchmark**
+Fhourstones: an integer benchmark **Required GNU gcc**
 
 - [ ]
-Fhourstones: an integer benchmark **A werid game, assuming this is played by normal people**
+HINT: designed to measure overall CPU and memory performance **HINT is designed
+for UNIX**
 
 - [ ]
-HINT: designed to measure overall CPU and memory performance
-
-- [ ]
-Iometer: I/O subsystem measurement and characterization tool for single and clustered systems.
+Iometer: I/O subsystem measurement and characterization tool for single and
+clustered systems.
 
 - [ ]
 IOzone: Filesystem benchmark
@@ -138,17 +146,14 @@ Livermore loops
 NAS parallel benchmarks
 
 - [ ]
-NBench: synthetic benchmark suite measuring performance of integer arithmetic, memory operations, and floating-point arithmetic
+NBench: synthetic benchmark suite measuring performance of integer arithmetic,
+memory operations, and floating-point arithmetic
 
 - [ ]
 PAL: a benchmark for realtime physics engines
 
 - [ ]
 PerfKitBenchmarker: A set of benchmarks to measure and compare cloud offerings.
-
-- [x]
-Phoronix Test Suite: open-source cross-platform benchmarking suite for Linux, OpenSolaris, FreeBSD, OSX and Windows. It includes a number of other benchmarks included on this page to simplify execution.
-**I will have a list of tests that can actually be installed on the test machines.**
 
 - [ ]
 POV-Ray: 3D render
@@ -163,4 +168,66 @@ TATP Benchmark: Telecommunication Application Transaction Processing Benchmark
 TPoX: An XML transaction processing benchmark for XML databases
 
 - [ ]
-VUP (VAX unit of performance), also called VAX MIPS Whetstone: floating-point arithmetic performance, often reported in millions of Whetstone instructions per second (MWIPS)
+VUP (VAX unit of performance), also called VAX MIPS Whetstone: floating-point
+arithmetic performance, often reported in millions of Whetstone instructions
+per second (MWIPS)
+
+
+## Windows Specific Benchmarks
+- [ ]
+BAPCo: MobileMark, SYSmark, WebMark, **895 dolloars per suite. I have reached
+them for educational version.**
+
+- [x]
+Futuremark: 3DMark, PCMark **We have a free license, and they works.** [Command
+Line
+Reference](http://s3.amazonaws.com/download-aws.futuremark.com/PCMark8-CommandLineGuide.pdf)
+Futuremark includes the tests for office and adobe. Adobe does not have
+educational version.
+
+
+- [ ]
+Whetstone **Designed for ARM**
+
+- [ ]
+Worldbench (discontinued) **No proper download**
+
+- [x]
+PiFast **Works** [pifast](http://numbers.computation.free.fr/Constants/PiProgram/pifast.html)
+
+- [ ]
+SuperPrime **Not working**
+
+- [x]
+Super PI Windows System Assessment Tool, included with Windows Vista and later
+releases, providing an index for consumers to rate their systems easily **works**
+
+- [x]
+[phoronix](https://github.com/phoronix-test-suite/phoronix-test-suite) is
+tunned for 64 bit Windows. But some suites of Phoronix can also run under 32
+bit Windows. The way to run phoronix is download 
+[PHP](http://windows.php.net/download/) and use the _php.exe_ to run
+phoronix-test-suite.bat.
+
+- [ ]
+[selenium](http://selenium-python.readthedocs.io/)
+python web  browsing
+
+# VTunes Measurement
+
+Since we are using VTunes on 32-bit windows machine, the measurements can only
+be done through command line. The command line reference of VTunes is [this
+link](https://software.intel.com/en-us/node/544220).
+
+Collect data:
+```batch
+amplxe-cl.exe -collect hotspots -result-dir r001hs -quiet application_you_want_to_run.exe
+```
+Read data:
+```batch
+amplxe-cl.exe -report hotspots -r r001hs 
+```
+Relog command can read vtune data base and reformat the data.
+We use [hardware event-based
+sampling](https://software.intel.com/en-us/node/609450) for sampling with a
+sampling interval of 1ms.
