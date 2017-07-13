@@ -231,3 +231,13 @@ Relog command can read vtune data base and reformat the data.
 We use [hardware event-based
 sampling](https://software.intel.com/en-us/node/609450) for sampling with a
 sampling interval of 1ms.
+
+# Remote Connection
+
+We use
+[rdesktop](http://www.linuxquestions.org/questions/linux-general-1/how-to-install-rdesktop-on-ubuntu-622949/)
+to connect to windows machines.
+
+We use
+[ssh-pass](https://www.cyberciti.biz/faq/noninteractive-shell-script-ssh-password-provider/)
+ssh to connect to linux machines.
