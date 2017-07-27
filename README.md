@@ -219,6 +219,11 @@ Since we are using VTunes on 32-bit windows machine, the measurements can only
 be done through command line. The command line reference of VTunes is [this
 link](https://software.intel.com/en-us/node/544220).
 
+Licence path:
+```batch
+C:\Program Files\Common Files\Intel\Licenses
+```
+
 Collect data:
 ```batch
 amplxe-cl.exe -collect hotspots -result-dir r001hs -quiet application_you_want_to_run.exe
