@@ -31,6 +31,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 6. Always be [admin](https://www.technipages.com/windows-enable-disable-user-account-control-uac)
 
+7. [Delete](http://www.techentice.com/delete-pagefile-sys-in-windows-7/) the pagefile.sys
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
