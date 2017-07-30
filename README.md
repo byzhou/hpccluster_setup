@@ -37,6 +37,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 9. [Show](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) all the files
 
+10. [Delete](https://support.microsoft.com/en-us/help/920730/how-to-disable-and-re-enable-hibernation-on-a-computer-that-is-running) hiberfil
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
