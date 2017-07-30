@@ -39,6 +39,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 10. [Delete](https://support.microsoft.com/en-us/help/920730/how-to-disable-and-re-enable-hibernation-on-a-computer-that-is-running) hiberfil
 
+11. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
