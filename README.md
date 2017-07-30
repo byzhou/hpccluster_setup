@@ -45,7 +45,7 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 10. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
 
-
+11. Add [credentials](https://www.howtogeek.com/106906/how-to-add-credentials-to-the-windows-credential-manager-vault/) to the windows credential manager vault
 
 # Configurations on Ubuntu
 
