@@ -41,6 +41,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 11. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
 
+12. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
