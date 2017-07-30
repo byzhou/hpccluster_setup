@@ -31,17 +31,21 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 6. Always be [admin](https://www.technipages.com/windows-enable-disable-user-account-control-uac)
 
-7. [Delete](http://www.techentice.com/delete-pagefile-sys-in-windows-7/) the pagefile.sys
+7. [Turn off](https://pubs.vmware.com/view-50/index.jsp?topic=%2Fcom.vmware.view.administration.doc%2FGUID-D7921206-FCA5-41FA-9AF5-F481B86463D6.html) windows 7 updates
 
-8. [Turn off](https://pubs.vmware.com/view-50/index.jsp?topic=%2Fcom.vmware.view.administration.doc%2FGUID-D7921206-FCA5-41FA-9AF5-F481B86463D6.html) windows 7 updates
+8. [Show](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) all the files
 
-9. [Show](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) all the files
+9. [Use AOMEI](http://www.disk-partition.com/) to change partition shrinking size
 
-10. [Delete](https://support.microsoft.com/en-us/help/920730/how-to-disable-and-re-enable-hibernation-on-a-computer-that-is-running) hiberfil
+	1. [Delete](https://support.microsoft.com/en-us/help/920730/how-to-disable-and-re-enable-hibernation-on-a-computer-that-is-running) hiberfil
 
-11. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
+	2. [Delete](http://www.techentice.com/delete-pagefile-sys-in-windows-7/) the pagefile.sys
 
-12. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
+10. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
+
+11. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
+
+
 
 # Configurations on Ubuntu
 
