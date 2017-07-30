@@ -35,6 +35,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 8. [Turn off](https://pubs.vmware.com/view-50/index.jsp?topic=%2Fcom.vmware.view.administration.doc%2FGUID-D7921206-FCA5-41FA-9AF5-F481B86463D6.html) windows 7 updates
 
+9. [Show](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) all the files
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
