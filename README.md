@@ -41,9 +41,9 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 	2. [Delete](http://www.techentice.com/delete-pagefile-sys-in-windows-7/) the pagefile.sys
 
-10. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
+	3. [Shrink](https://www.youtube.com/watch?v=cHKS2qG3cNg) Disk beyond the point where any unmovable files are located.
 
-11. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
+10. [Change](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) files in ext2 partition from windows.
 
 
 
