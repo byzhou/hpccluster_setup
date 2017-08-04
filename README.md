@@ -47,6 +47,8 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 11. Add [credentials](https://www.howtogeek.com/106906/how-to-add-credentials-to-the-windows-credential-manager-vault/) to the windows credential manager vault
 
+12. [Set](https://askubuntu.com/questions/330781/how-to-create-launcher-for-application) up start up scripts
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
