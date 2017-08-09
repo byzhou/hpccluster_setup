@@ -47,6 +47,11 @@ windows](http://www.online-tech-tips.com/windows-7/configure-auto-login-for-wind
 
 11. [Set](https://askubuntu.com/questions/330781/how-to-create-launcher-for-application) up start up scripts
 
+12. path environmental variable
+```bat
+%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\AMD\ATI.ACE\Core-Static;C:\Users\foo\Downloads\php-5.6.30-nts-Win32-VC11-x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\AMD\ATI.ACE\Core-Static;C:\php;C:\Program Files\Futuremark\PCMark 8\bin;C:\ProgramData\Anaconda2;C:\Program Files\IntelSWTools\VTune Amplifier XE 2017\bin32;C:\ProgramData\Anaconda2
+```
+
 # Configurations on Ubuntu
 
 Ubuntu partition here only achieve the reloading of windows partition, which copy
