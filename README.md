@@ -5,6 +5,9 @@ setup a cluster, running malwares and measure behaviors. This setup uses
 [rabbitmq](https://www.rabbitmq.com) to manage the communications between the
 master node and the client nodes.
 
+# Private Network
+This is the tutorial on network setup. [tutorial](https://opensourceforu.com/2015/04/how-to-configure-ubuntu-as-a-router/)
+
 # Configuration of Master Node
 
 # Installation of OS
