@@ -6,7 +6,7 @@ setup a cluster, running malwares and measure behaviors. This setup uses
 master node and the client nodes.
 
 # Private Network
-This is the tutorial on network setup. [tutorial](https://opensourceforu.com/2015/04/how-to-configure-ubuntu-as-a-router/)
+This is the tutorial on network setup. [tutorial](https://wiki.debian.org/DHCP_Server)
 
 # Configuration of Master Node
 
