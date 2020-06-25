@@ -464,3 +464,64 @@ to connect to windows machines.
 We use
 [ssh-pass](https://www.cyberciti.biz/faq/noninteractive-shell-script-ssh-password-provider/)
 ssh to connect to linux machines.
+
+
+# boot automatic script
+
+# how to reset transceiver on shutdown/reboot
+
+1. add a script for the system init.d script
+```
+$ cat /etc/init.d/reset_transceiver
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides: resettransceiver
+# Required-Start:
+# Required-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: restart the transceiver when poweroff and reboot
+# Description: restart the transceiver when poweroff and reboot
+### END INIT INFO
+/home/ranging/ranging_daemon/src/build/reset_transceiver
+```
+
+2. add a script for the system service
+```
+$ cat /etc/systemd/system/reset_transceiver.service
+[Unit]
+Description=runs only upon shutdown
+#Conflicts=reboot.target
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/true
+ExecStop=/etc/init.d/reset_transceiver
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+3. Enter the following command to enable the system service
+```
+sudo chmod +x /etc/init.d/reset_transceiver
+sudo systemctl daemon-reload
+sudo systemctl enable reset_transceiver --now
+```
+If everything is successful, you should see the following:
+```
+Synchronizing state of reset_transceiver.service with SysV init with /lib/systemd/systemd-sysv-install...
+Executing /lib/systemd/systemd-sysv-install enable reset_transceiver
+```
+And you should be able to verify that by entering the commands below.
+```
+$ ls /etc/rc*.d/*reset_transceiver
+/etc/rc0.d/K01reset_transceiver@  /etc/rc2.d/S01reset_transceiver@  /etc/rc4.d/S01reset_transceiver@  /etc/rc6.d/K01reset_transceiver@
+/etc/rc1.d/K01reset_transceiver@  /etc/rc3.d/S01reset_transceiver@  /etc/rc5.d/S01reset_transceiver@
+```
+
+4. Reboot to test it out!
+```
+sudo reboot
+```
