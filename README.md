@@ -1,3 +1,6 @@
+# ethernet over usb
+https://developer.ridgerun.com/wiki/index.php/How_to_use_USB_device_networking
+
 # HPC Cluster Setup
 
 This is a list of things that needs to be done for setting up a cluster to
